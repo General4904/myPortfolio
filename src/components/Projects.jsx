@@ -2,14 +2,14 @@ import Reveal from "./Reveal";
 
 const PROJECT_LIST = [
   {
-    title: "Project Alpha",
-    desc: "A React web application engineered for efficiency.",
-    link: "#",
+    title: "Jossy Biomedical And Scientific Instrumentation",
+    desc: "A Frontend and Node web application engineered for efficiency.",
+    link: "https://jossy-biomedical.onrender.com/",
   },
   {
-    title: "Project Beta",
+    title: "Master Edu Tutor",
     desc: "An API engine built using Node and cloud infrastructure.",
-    link: "#",
+    link: "https://github.com/General4904/masterEduTutor",
   },
 ];
 
