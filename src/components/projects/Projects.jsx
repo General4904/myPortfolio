@@ -39,7 +39,7 @@ const Projects = () =>
               </div>
 
               <div className="links flex gap-5">
-                <a href="fabric-kingpin.onrender.com">
+                <a href="https://fabric-kingpin.onrender.com/">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
