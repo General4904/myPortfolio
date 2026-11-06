@@ -1,6 +1,8 @@
 import ProjectSet from "./ProjectSet";
 import "../../styles/projects.css";
 import fabricKingpin from "../../assets/projects/fabric-kingpin.png";
+import jossyBiomedical from "../../assets/projects/jossy-biomedical.png";
+import egbaalakeradio from "../../assets/projects/egbaalake-radio.png";
 
 const Projects = () =>
   // imgSrc,
@@ -33,7 +35,7 @@ const Projects = () =>
               </p>
 
               <div className="tools-used flex gap-5">
-                <div className="tool rounded-4xl p-2">React</div>
+                {/* <div className="tool rounded-4xl p-2">React</div> */}
                 <div className="tool rounded-4xl p-2">Node.js</div>
                 <div className="tool rounded-4xl p-2">MongoDB</div>
               </div>
@@ -55,31 +57,33 @@ const Projects = () =>
           <ProjectSet>
             <div className="project-image w-full min-[1020px]:w-[50%] h-[15em] mb-3">
               <img
-                // src={imgSrc}
+                src={jossyBiomedical}
                 className="w-full h-full border-transparent"
                 // alt={imgAlt}
               />
             </div>
             <div className=" flex flex-col gap-5">
-              <h3 className="text-2xl mb-2">Project name</h3>
+              <h3 className="text-2xl mb-2">
+                Jossy Biomedical Engineering & Scientific Instrumentation
+              </h3>
               <p className="project-description">
-                One or two sentences on the problem, what you built and the
-                result.
+                An application for a biomedical engineering firm
               </p>
 
               <div className="tools-used flex gap-5">
-                <div className="tool rounded-4xl p-2">React</div>
+                {/* <div className="tool rounded-4xl p-2">React</div> */}
                 <div className="tool rounded-4xl p-2">Node.js</div>
+                <div className="tool rounded-4xl p-2">Express JS</div>
                 <div className="tool rounded-4xl p-2">MongoDB</div>
               </div>
 
               <div className="links flex gap-5">
-                <a href="">
+                <a href="https://jossy-biomedical.onrender.com/">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="">
+                <a href="https://github.com/General4904/jossy-biomedical">
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>
@@ -90,31 +94,30 @@ const Projects = () =>
           <ProjectSet>
             <div className="project-image w-full min-[1020px]:w-[50%] h-[15em] mb-3">
               <img
-                // src={imgSrc}
+                src={egbaalakeradio}
                 className="w-full h-full border-transparent"
                 // alt={imgAlt}
               />
             </div>
             <div className=" flex flex-col gap-5">
-              <h3 className="text-2xl mb-2">Project name</h3>
+              <h3 className="text-2xl mb-2">Egbaalake Radio</h3>
               <p className="project-description">
-                One or two sentences on the problem, what you built and the
-                result.
+                An application for an online radio station
               </p>
 
               <div className="tools-used flex gap-5">
-                <div className="tool rounded-4xl p-2">React</div>
+                <div className="tool rounded-4xl p-2">Tailwind CSS</div>
                 <div className="tool rounded-4xl p-2">Node.js</div>
-                <div className="tool rounded-4xl p-2">MongoDB</div>
+                {/* <div className="tool rounded-4xl p-2">MongoDB</div> */}
               </div>
 
               <div className="links flex gap-5">
-                <a href="">
+                <a href="https://egbaalake.vercel.app/">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="">
+                <a href="https://github.com/General4904/egbaAlakeRadio">
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>
