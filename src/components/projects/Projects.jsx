@@ -27,10 +27,9 @@ const Projects = () =>
               />
             </div>
             <div className=" flex flex-col gap-5">
-              <h3 className="text-2xl mb-2">Project name</h3>
+              <h3 className="text-2xl mb-2">Fabric Kingpin</h3>
               <p className="project-description">
-                One or two sentences on the problem, what you built and the
-                result.
+                An e-commerce website built for a fabric store
               </p>
 
               <div className="tools-used flex gap-5">
@@ -40,12 +39,12 @@ const Projects = () =>
               </div>
 
               <div className="links flex gap-5">
-                <a href="">
+                <a href="fabric-kingpin.onrender.com">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="">
+                <a href="https://github.com/General4904/fabric_kingpin">
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>
