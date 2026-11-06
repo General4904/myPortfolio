@@ -1,5 +1,6 @@
 import ProjectSet from "./ProjectSet";
 import "../../styles/projects.css";
+import fabricKingpin from "../../assets/projects/fabric-kingpin.png";
 
 const Projects = () =>
   // imgSrc,
@@ -20,7 +21,7 @@ const Projects = () =>
           <ProjectSet>
             <div className="project-image w-full min-[1020px]:w-[50%] h-[15em] mb-3">
               <img
-                // src={imgSrc}
+                src={fabricKingpin}
                 className="w-full h-full border-transparent"
                 // alt={imgAlt}
               />
