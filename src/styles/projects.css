@@ -1,0 +1,36 @@
+@import '../index.css';
+
+.projects {
+    border-bottom: 1px solid var(--border-colour);
+}
+
+h2,
+.links {
+    color: var(--headings-colour);
+}
+
+.project {
+    border-top: 1px solid var(--border-colour);
+}
+
+.project-image {
+    border: 1px solid var(--border-colour);
+    background-color: var(--image-placeholder-colour);
+}
+
+p.project-description,
+.tools-used {
+    color: var(--secondary-text-colour);
+}
+
+.tool {
+    border: 1px solid var(--border-colour);
+}
+
+.link {
+    border-bottom: 1px solid var(--border-colour);
+}
+
+.link:hover {
+    border-bottom: 1px solid var(--headings-colour);
+}

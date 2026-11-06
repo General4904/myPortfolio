@@ -1,0 +1,28 @@
+@import '../index.css';
+
+.hero {
+    border-bottom: 1px solid var(--border-colour);
+}
+
+h1 {
+    background: var(--name-gradient);
+    background-clip: text;
+    color: transparent;
+}
+
+h3 {
+    color: var(--headings-colour);
+}
+
+p {
+    color: var(--body-text);
+}
+
+.see-projects-button {
+    background: var(--metal-gradient-buttons);
+}
+
+.contact-button {
+    border: 1px solid var(--border-colour);
+    color: var(--body-text);
+}

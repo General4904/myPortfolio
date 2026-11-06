@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --font-instrument-sans: "Instrument sans", sans-serif;
+  --image-placeholder-colour: #0c0c0c; /* Image placeholders */
+  --border-colour: #2a2a2b; /* Borders and dividers */
+  --footer-text-colour: #4a4b4e; /* Tag outlines, footer text */
+  --secondary-text-colour: #78797d; /* Secondary text */
+  --body-text: #a8a9ad; /* Body text */
+  --headings-colour: #d4d4d6; /* Headings, brightest text */
+  --metal-gradient-buttons: linear-gradient(
+    135deg,
+    #d4d4d6 0%,
+    #a8a9ad 48%,
+    #6e6f73 100%
+  ); /* Metal gradient (buttons) */
+  --name-gradient: linear-gradient(
+    170deg,
+    #d4d4d6 0%,
+    #a8a9ad 45%,
+    #585a5e 100%
+  ); /* Name gradient */
+}

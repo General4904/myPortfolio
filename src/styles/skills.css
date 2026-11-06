@@ -1,0 +1,25 @@
+@import '../index.css';
+
+.skills {
+    border-bottom: 1px solid var(--border-colour);
+}
+
+h2 {
+    color: var(--headings-colour);
+}
+
+h3 {
+    color: var(--headings-colour);
+}
+
+p {
+    color: var(--body-text);
+}
+
+li {
+    color: var(--body-text);
+}
+
+.skillset {
+    border-top: 1px solid var(--border-colour);
+}

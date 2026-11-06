@@ -1,0 +1,20 @@
+@import '../index.css';
+
+.fullname {
+    background: var(--name-gradient);
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-item {
+    color: var(--secondary-text-colour);
+}
+
+.navbar {
+    border-bottom: 1px solid var(--border-colour);
+}
+
+a div:hover {
+    color: var(--headings-colour);
+    /* color: red; */
+}
