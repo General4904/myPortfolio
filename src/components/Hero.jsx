@@ -12,15 +12,17 @@ const Hero = () => {
       <div className="buttons w-full flex justify-between items-center gap-2">
         <a
           href="#projects"
-          className="see-projects-button cursor-pointer h-[3em] font-bold text-md px-2 w-[45%]"
+          className="see-projects-button h-[3em] font-bold text-md px-2 w-[45%]"
         >
-          <button className="w-full h-full">See my projects</button>
+          <button className="w-full h-full cursor-pointer">
+            See my projects
+          </button>
         </a>
         <a
           href="#contact"
-          className="contact-button cursor-pointer h-[3em] w-[45%] font-bold"
+          className="contact-button  h-[3em] w-[45%] font-bold"
         >
-          <button className="w-full h-full">Get in touch</button>
+          <button className="w-full h-full cursor-pointer">Get in touch</button>
         </a>
       </div>
     </div>
