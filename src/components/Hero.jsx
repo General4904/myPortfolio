@@ -3,7 +3,9 @@ import "../styles/hero.css";
 const Hero = () => {
   return (
     <div className="hero px-[0.5em] py-[2em] w-full">
-      <h1 className="text-5xl font-bold mb-4">Koyejo Ibukunoluwa Joshua</h1>
+      <h1 className="text-5xl font-bold mb-4 fx-typewriter">
+        Koyejo Ibukunoluwa Joshua
+      </h1>
       <h3 className="text-xl mb-4">Fullstack web developer</h3>
       <p className="mb-4">
         I design, build and ship complete web applications, from the interface

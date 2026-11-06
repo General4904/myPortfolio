@@ -41,12 +41,15 @@ const Projects = () =>
               </div>
 
               <div className="links flex gap-5">
-                <a href="https://fabric-kingpin.onrender.com/">
+                <a href="https://fabric-kingpin.onrender.com/" target="_blank">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="https://github.com/General4904/fabric_kingpin">
+                <a
+                  href="https://github.com/General4904/fabric_kingpin"
+                  target="_blank"
+                >
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>
@@ -78,12 +81,18 @@ const Projects = () =>
               </div>
 
               <div className="links flex gap-5">
-                <a href="https://jossy-biomedical.onrender.com/">
+                <a
+                  href="https://jossy-biomedical.onrender.com/"
+                  target="_blank"
+                >
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="https://github.com/General4904/jossy-biomedical">
+                <a
+                  href="https://github.com/General4904/jossy-biomedical"
+                  target="_blank"
+                >
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>
@@ -112,12 +121,15 @@ const Projects = () =>
               </div>
 
               <div className="links flex gap-5">
-                <a href="https://egbaalake.vercel.app/">
+                <a href="https://egbaalake.vercel.app/" target="_blank">
                   <span className="link live-site pb-2 transition">
                     Live site
                   </span>
                 </a>
-                <a href="https://github.com/General4904/egbaAlakeRadio">
+                <a
+                  href="https://github.com/General4904/egbaAlakeRadio"
+                  target="_blank"
+                >
                   <span className="link source-code pb-2 transition">
                     Source code
                   </span>

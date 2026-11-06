@@ -26,3 +26,33 @@ p {
     border: 1px solid var(--border-colour);
     color: var(--body-text);
 }
+
+.fx-typewriter {
+    box-sizing: content-box;
+    letter-spacing: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10ch;
+    border-right: .55ch solid var(--ink-2);
+    animation: fx-type 3.6s steps(23) infinite,
+        fx-caret .65s steps(1) infinite;
+}
+
+@keyframes fx-type {
+
+    0%,
+    8% {
+        width: 0;
+    }
+
+    55%,
+    100% {
+        width: 23ch;
+    }
+}
+
+@keyframes fx-caret {
+    50% {
+        border-color: transparent;
+    }
+}
